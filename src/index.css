@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.font-serif-luxury {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-cursive-luxury {
+  font-family: "Great Vibes", cursive;
+}
+
+.font-sans-clean {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.gold-text-metallic {
+  background: linear-gradient(135deg, #ecd38c 0%, #fae8a9 25%, #cfa049 50%, #f6e6aa 75%, #b8862d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.gold-text-champagne {
+  background: linear-gradient(135deg, #e7cb85 0%, #f7e6b5 30%, #cca252 65%, #f2dc9b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@media print {
+  body {
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
